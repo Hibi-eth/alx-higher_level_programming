@@ -28,16 +28,6 @@ void reverse_listint(listint_t **head)
  */
 int is_palindrome(listint_t **head)
 {
-<<<<<<< HEAD
-	long int size = PyList_Size(p);
-	int i;
-	PyListObject *obj = (PyListObject *)p;
-
-	printf("[*] Size of the Python List = %li\n", size);
-	printf("[*] Allocated = %li\n", obj->allocated);
-	for (i = 0; i < size; i++)
-		printf("Element %i: %s\n", i, Py_TYPE(obj->ob_item[i])->tp_name);
-=======
 	listint_t *slow = *head, *fast = *head, *temp = *head, *dup = NULL;
 
 	if (*head == NULL || (*head)->next == NULL)
@@ -77,4 +67,3 @@ int is_palindrome(listint_t **head)
 
 	return (0);
 }
->>>>>>> 623e67ae5f2bd04e9919cfde479af605e9bb5938
