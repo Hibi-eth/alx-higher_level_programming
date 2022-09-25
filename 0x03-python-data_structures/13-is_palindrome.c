@@ -67,10 +67,3 @@ int is_palindrome(listint_t **head)
 
 	return (0);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 623e67ae5f2bd04e9919cfde479af605e9bb5938
->>>>>>> 82ec63c8c26c466921c2b7d7f87363ebfddfe8dd
-=======
->>>>>>> 0cc4d7c501d3511f270365a1431d6c45a694b91a
